@@ -22,6 +22,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 
+// adding a comment here
 public class Client extends JFrame {
 	private static final long serialVersionUID = 1L;
 	private JTextArea history;
@@ -142,16 +143,16 @@ private void createWindow() {
 		if (message.equals("")) return;
 		if (message.equals("!fucku")) {
 			history.append(name + " " + "thinks that you are EPICE!"
-					+ "\n\r" + "…………………./´¯/)\r\n" + 
-					"………………..,/¯../\r\n" + 
-					"………………./…./\r\n" + 
-					"…………./´¯/’…’/´¯¯`·¸\r\n" + 
-					"………./’/…/…./……./¨¯\\\r\n" + 
-					"……..(‘(…´…´…. ¯~/’…’)\r\n" + 
-					"………\\……………..’…../\r\n" + 
-					"……….”…\\………. _.·´\r\n" + 
-					"…………\\…………..(\r\n" + 
-					"…………..\\………….\\" + "\n\r");
+					+ "\n\r" + "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½./ï¿½ï¿½/)\r\n" + 
+					"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..,/ï¿½../\r\n" + 
+					"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½./ï¿½./\r\n" + 
+					"ï¿½ï¿½ï¿½ï¿½./ï¿½ï¿½/ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½`ï¿½ï¿½\r\n" + 
+					"ï¿½ï¿½ï¿½./ï¿½/ï¿½/ï¿½./ï¿½ï¿½./ï¿½ï¿½\\\r\n" + 
+					"ï¿½ï¿½..(ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½. ï¿½~/ï¿½ï¿½ï¿½)\r\n" + 
+					"ï¿½ï¿½ï¿½\\ï¿½ï¿½ï¿½ï¿½ï¿½..ï¿½ï¿½../\r\n" + 
+					"ï¿½ï¿½ï¿½.ï¿½ï¿½\\ï¿½ï¿½ï¿½. _.ï¿½ï¿½\r\n" + 
+					"ï¿½ï¿½ï¿½ï¿½\\ï¿½ï¿½ï¿½ï¿½..(\r\n" + 
+					"ï¿½ï¿½ï¿½ï¿½..\\ï¿½ï¿½ï¿½ï¿½.\\" + "\n\r");
 			txtMessage.setText(null);
 			}
 		else {
